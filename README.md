@@ -1,1 +1,3 @@
 # Content-Streaming-using-Hybrid-Overlay-Network
+We have provided a hybrid overlay structure that combines the benefits of both the tree and the mesh
+approaches. We have implemented our algorithm using a Fibonacci heap which has amortized constant run time for the insert, update key, merge and extract operations, and the delete operation which has a log n run time. Our algorithm also ensures that there is a worst case bound on delay of log N, but our experiments prove that the value is considerably lower than this bound. It also handles the dynamic nature of bandwidth and latency, which a P2P network over the Internet is bound to be subject to. The algorithm also ensures that the BW utilization of a node is consistently above 90%.
